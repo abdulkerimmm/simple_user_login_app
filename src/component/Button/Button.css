@@ -1,0 +1,19 @@
+.button-cssi{
+    color:black;
+    background-color: aqua;
+    text-transform: uppercase;
+    outline: none;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 14px ;
+    transition: all 0.3s ease;
+    cursor: pointer;  
+    width: max-content;
+}
+
+
+.button-cssi:hover,
+.button-cssi:active,
+.button-cssi:focus{
+    background-color: red;
+}
