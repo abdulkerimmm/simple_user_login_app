@@ -1,13 +1,12 @@
 import React from 'react'
 import propTypes from 'prop-types'
-import { type } from '@testing-library/user-event/dist/type'
 import './Input.css'
 
-const Input = ({value,placeholder,type,onChange}) => {
+const Input = ({value,placeholder,type,OnceChange}) => {
   return (
     <div>
       
-        <input className="sinifismi" value={value} type={type} placeholder={placeholder} onChange={onChange}/>
+        <input className="sinifismi" value={value} type={type} placeholder={placeholder} onChange={OnceChange}/>
  
 
     </div>
@@ -18,7 +17,7 @@ Input.propTypes={
   value: propTypes.string.isRequired,
   placeholder: propTypes.string,
   type: propTypes.string,
-  onchange: propTypes.func.isRequired
+  OnceChange: propTypes.func.isRequired
 }
 
 Input.defaultProps={
